@@ -5,6 +5,6 @@ export const add = (a: number, b: number)=>{
 };
 
 it("should be ok ", ()=>{
-    expect(add(2, 4)).toEqual(6);
+    expect(add(2, -3)).toEqual(-1);
     expect(add(5, 4)).toEqual(9);
 });
